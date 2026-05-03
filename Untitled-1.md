@@ -1,12 +1,6 @@
 The **BMCHIST_OBJECT** table stores information about the objects being processed during a job.  
 This table has an entry for each object processed by the associated step in the **BMCHIST_STEP** table.
 
-It includes details such as:
-- Object name
-- Object type
-- Partitions processed
-- Execution codes
-
 ---
 
 ## Object Timing Information
