@@ -3,7 +3,7 @@
 Complete the following tasks before running an IVP job:
 
 - Submit all installation and customization jobs except the IVP job ($770IVP).  
-  For more information, see the Installation System documentation.
+
 
 - Apply the appropriate fixes for each product that you are installing.  
   For instructions, see the Installation System documentation.
