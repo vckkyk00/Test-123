@@ -9,7 +9,6 @@ If no data collectors are listed, add one or more new data collectors by perform
 
 - Type **I** on the `+` sign  
 - Type **R** to replicate an existing one, then overwrite the data collector name  
-- Type **E** to define a new instance using default values  
 
 ## Data Collector Fields
 
