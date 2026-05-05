@@ -1,0 +1,53 @@
+# Creating User-Defined SQL Object Sets
+
+You can create object sets with user-defined SQL using the following methods:
+
+- **SCCSQL DD statement**  
+  Specify the file that contains the SQL statement.
+
+- **INCLUDE SQL syntax**  
+  Specify SQL inline, delimited by:
+  - `#BEGINSQL`
+  - `#ENDSQL`
+
+## Notes
+
+- You can include multiple `INCLUDE SQL` statements within a single `CREATE OBJECTSET` statement.
+- The `INCLUDE SQL` syntax supports a limited set of keywords for including related objects.
+- Subselects are supported.
+
+For more information:
+- See *SCCSQL DD statement and example*
+- See *INCLUDE SQL*
+
+---
+
+# Deleting Object Sets
+
+- You can delete multiple object sets using wildcards in the object set name.
+- Deleting an object set:
+  - Removes only the definition from the repository
+  - Does **not** affect the actual objects within the object set
+
+For more information:
+- See *DELETE-OBJECTSET-syntax-and-option-descriptions*
+
+---
+
+# Reporting Object Set Information
+
+You can generate reports for one or more object sets, including:
+
+- **Objects within the object set**  
+  Output file: `SCCOBJS`
+
+- **Object set specification**  
+  Output file: `SCCSPEC`
+
+## Notes
+
+- You can generate reports for multiple object sets using wildcards in the object set name.
+- For wildcard usage rules, see *SCCIN-DD-syntax-rules*.
+
+For more information:
+- See *REPORT-OBJECTSET-syntax-and-option-descriptions*
